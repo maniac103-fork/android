@@ -8,6 +8,9 @@
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="myrepos"
+           fetch="ssh://git@github.com/" />
+
   <remote  name="themes"
            fetch="git://github.com/tmobile" />
 
@@ -67,7 +70,7 @@
   <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" remote="github" />
 
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
-  <project path="device/motorola/jordan" name="maniac103/android_device_motorola_umts_jordan" remote="github" revision="gingerbread"/>
+  <project path="device/motorola/jordan" name="maniac103/android_device_motorola_umts_jordan" remote="myrepos" revision="gingerbread"/>
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" remote="github" />
 
@@ -281,7 +284,7 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="refs/heads/master" />
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
 
-  <project path="android" name="maniac103/android" remote="github" />
+  <project path="android" name="maniac103/android" remote="myrepos" />
 
   <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="gingerbread" remote="github" />
 
