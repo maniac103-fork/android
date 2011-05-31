@@ -201,7 +201,7 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="github" />
-  <project path="hardware/ti" name="Quarx2k/android_hardware_ti" remote="github" revision="master" /> 
+  <project path="hardware/ti" name="maniac103/android_hardware_ti" remote="myrepos" revision="master" /> 
 
   <project path="libcore" name="CyanogenMod/android_libcore" remote="github" />
   <project path="ndk" name="platform/ndk" />
@@ -237,7 +237,7 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Pacman" name="CyanogenMod/android_packages_apps_Pacman" remote="github" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" />
+  <project path="packages/apps/Phone" name="maniac103/android_packages_apps_Phone" remote="myrepos" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -276,7 +276,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" />
 
-  <project path="vendor/cyanogen" name="maniac103/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="maniac103/android_vendor_cyanogen" remote="myrepos" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" remote="github" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/master" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
