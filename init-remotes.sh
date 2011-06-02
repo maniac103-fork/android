@@ -5,11 +5,11 @@ function add_remote()
 	pushd $1
 	for r in $3; do
 		if [ "$r" = "quarx" ]; then
-			url = "git://github.com/Quarx2k"
+			url="git://github.com/Quarx2k"
 		elif [ "$r" = "cyanogen" ]; then
-			url = "git://github.com/CyanogenMod"
+			url="git://github.com/CyanogenMod"
 		elif [ "$r" = "review" ]; then
-			url = "ssh://review.cyanogenmod.com:29418/CyanogenMod"
+			url="ssh://review.cyanogenmod.com:29418/CyanogenMod"
 		fi
 		git remote add $r $url/$2.git
 	done
