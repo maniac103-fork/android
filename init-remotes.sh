@@ -16,6 +16,11 @@ function add_remote()
 	popd
 }
 
+if [ $# -ne 0 ]; then
+	add_remote $1 $2 $3
+	exit 0
+fi
+
 add_remote vendor/cyanogen android_vendor_cyanogen "quarx cyanogen review"
 add_remote android android "cyanogen"
 add_remote device/motorola/jordan android_device_motorola_umts_jordan "quarx"
