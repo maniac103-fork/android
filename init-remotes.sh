@@ -25,6 +25,7 @@ if [ $# -ne 0 ]; then
 	exit 0
 fi
 
+add_remote system/bluetooth android_system_bluetooth "cyanogen" gingerbread
 add_remote vendor/cyanogen android_vendor_cyanogen "quarx cyanogen review" gingerbread
 add_remote android android "cyanogen" gingerbread
 add_remote device/motorola/jordan android_device_motorola_umts_jordan "quarx" gingerbread

@@ -22,4 +22,3 @@ do_package vendor/cyanogen "cyanogen quarx" gingerbread push
 do_package packages/apps/Camera "cyanogen" gingerbread
 do_package packages/apps/Settings "cyanogen" gingerbread
 do_package packages/apps/Torch "cyanogen" gingerbread
-
