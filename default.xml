@@ -24,6 +24,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" remote="github" />
+  <project path="external/bootmenu" name="CyanogenDefy/android_external_bootmenu" remote="github" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
   <project path="development" name="CyanogenMod/android_development" remote="github" />
   <project path="device/common" name="device/common" />
@@ -195,7 +196,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" />
 
-  <project path="frameworks/base" name="maniac103/android_frameworks_base" remote="myrepos" />
+  <project path="frameworks/base" name="CyanogenDefy/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 

@@ -7,14 +7,9 @@ in each forked projects (separated from your repo tree), create a script named m
 
 #!/bin/bash
 
-# git fetch cyanogen
-# git merge remotes/cyanogen/gingerbread
-
-git fetch quarx
-git merge remotes/quarx/gingerbread
-
-# git merge tpruvot
-# git merge remotes/tpruvot/gingerbread
+# git remote add defy git://github.com/CyanogenDefy/android_device_motorola_jordan.git
+# git fetch defy
+# git merge remotes/defy/gingerbread
 
 git push
 
@@ -22,7 +17,7 @@ git push
 
 for this example, you need to define upstream remotes in your git directory with the forked project :
 
-git remote add quarx git://github.com/Quarx2k/android_device_motorola_umts_jordan.git
+git remote add defy git://github.com/CyanogenDefy/android_device_motorola_jordan.git
 
 
 
