@@ -17,7 +17,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="CyanogenMod/android_build" remote="github">
+  <project path="build" name="CyanogenDefy/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
@@ -292,7 +292,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" />
 
-  <project path="vendor/cyanogen" name="CyanogenDefy/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
   <project path="vendor/motorola" name="maniac103/proprietary_vendor_motorola" remote="myrepos" />
 
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" remote="github" />
