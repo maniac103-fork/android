@@ -250,7 +250,7 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
 
-  <project path="kernel" name="CyanogenDefy/kernel_omap" />
+  <project path="kernel" name="CyanogenDefy/kernel-omap" />
 
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
