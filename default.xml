@@ -252,6 +252,7 @@
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
@@ -269,7 +270,6 @@
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" />
   <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" />
   <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="myrepos" />
-  <project path="system/netd" name="tpruvot/android_system_netd" />
   <project path="vendor/motorola" name="maniac103/proprietary_vendor_motorola" remote="myrepos" />
 
   <project path="android" name="maniac103/android" remote="myrepos" />
