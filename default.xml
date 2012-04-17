@@ -268,7 +268,7 @@
   <project path="hardware/ril" name="CyanogenDefy/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" />
   <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" />
-  <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" />
+  <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="myrepos" />
   <project path="system/netd" name="tpruvot/android_system_netd" />
   <project path="vendor/motorola" name="maniac103/proprietary_vendor_motorola" remote="myrepos" />
 
