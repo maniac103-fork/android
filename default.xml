@@ -190,7 +190,6 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
@@ -270,6 +269,7 @@
   <project path="hardware/ril" name="CyanogenDefy/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" />
   <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" />
+  <project path="packages/apps/Camera" name="CyanogenDefy/android_packages_apps_Camera" />
   <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="myrepos" />
   <project path="vendor/motorola" name="maniac103/proprietary_vendor_motorola" remote="myrepos" />
 
