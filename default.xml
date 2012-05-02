@@ -262,6 +262,7 @@
   <project path="device/motorola/jordan" name="maniac103/android_device_motorola_jordan" remote="myrepos" />
   <project path="external/bootmenu" name="tpruvot/android_external_bootmenu" />
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" />
+  <project path="external/pigz" name="tpruvot/android_external_pigz" />
   <project path="external/webkit" name="tpruvot/android_external_webkit" />
   <project path="external/wpa_supplicant_6" name="CyanogenDefy/android_external_wpa_supplicant_6" />
   <project path="frameworks/base" name="maniac103/android_frameworks_base" remote="myrepos" />
