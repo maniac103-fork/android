@@ -139,7 +139,7 @@
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
   <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
-  <project path="external/bootmenu" name="CyanogenMod/android_external_bootmenu" />
+  <project path="external/bootmenu" name="maniac103/android_external_bootmenu" remote="myrepos" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
@@ -284,6 +284,8 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+  <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="myrepos" />
+  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="myrepos" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
@@ -320,11 +322,11 @@
   <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
 
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="CyanogenMod/android_system_core" />
+  <project path="system/core" name="maniac103/android_system_core" remote="myrepos" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
+  <project path="system/su" name="maniac103/android_system_su" remote="myrepos" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
   <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" />
