@@ -331,7 +331,7 @@
   <project path="system/su" name="maniac103/android_system_su" remote="myrepos" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
-  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="maniac103/android_vendor_cyanogen" remote="myrepos" />
   <project path="vendor/motorola" name="maniac103/proprietary_vendor_motorola" remote="myrepos" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
