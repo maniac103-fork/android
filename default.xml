@@ -198,7 +198,7 @@
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+  <project path="packages/apps/Mms" name="maniac103/android_packages_apps_Mms" remote="myrepos" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="myrepos" />
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="myrepos" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
